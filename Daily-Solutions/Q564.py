@@ -3,7 +3,7 @@ class Solution:
         m = len(n)
         num = int(n)
 
-        # Bounds. Largest (n - 1) digit and smallest (n + 1) digit.
+        # Bounds. Largest (n - 1) digit and smallest (n + 1) digit
         left = 10 ** (m - 1) - 1
         right = 10 ** m + 1
 
