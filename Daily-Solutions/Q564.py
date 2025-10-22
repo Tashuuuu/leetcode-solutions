@@ -7,7 +7,7 @@ class Solution:
         left = 10 ** (m - 1) - 1
         right = 10 ** m + 1
 
-        # Calculating all the values.
+        # Calculating all the values
         isOdd = m & 1 # 0 if even and 1 if odd
         tillMid = int(n[: (m >> 1) + isOdd])
         smallerPalin = int(str(tillMid - 1) + str(tillMid - 1)[-1 -isOdd :: -1])
